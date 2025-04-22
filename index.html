@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Угадай число</title>
+      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <button id="music-toggle">🔈</button>
+      <audio id="mlp" src="https://cdn.glitch.global/186f8ec6-2a4a-4203-bb69-01f60d564d9a/My_Little_Pony_-_Opening_Titles_(musmore.com).mp3?v=1668348793293" loop></audio>
+      <div id="container">
+         <h3>Введи число от 1 до 20</h3>
+         <h3>Кто победит:</h3>
+         <h3> ты или компьютер?</h3>
+         <input type="text" placeholder="Введи число..." id="guess">
+         <br>
+         <button id="btn">Играть</button>
+         <p id="timer">Оставшееся время: 30 секунд</p>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="script.js"></script>
+   </body>
+</html>
